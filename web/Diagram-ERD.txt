@@ -1,0 +1,45 @@
+Table about {
+  id int [pk]
+  nama varchar
+  tanggal_lahir date
+  alamat_rumah text
+  hobi varchar
+  nomor_telepon int
+  email varchar
+  instagram varchar
+ }
+ 
+Table provinsi {
+   id_provinsi int [pk]
+   nama_provinsi varchar
+ }
+ 
+Table kota {
+   id_kota int [pk]
+   nama_kota varchar
+ }
+ 
+Table tanggal {
+   id_tangggal int [pk]
+   tanggal int
+ }
+ 
+Table bulan {
+   id_bulan int [pk]
+   bulan varchar
+ }
+ 
+Table tahun {
+   id_tahun int [pk]
+   tahun varchar
+ }
+
+Ref: "tahun"."id_tahun" < "about"."tanggal_lahir"
+
+Ref: "provinsi"."id_provinsi" < "about"."alamat_rumah"
+
+Ref: "kota"."id_kota" < "about"."alamat_rumah"
+
+Ref: "tanggal"."id_tangggal" < "about"."tanggal_lahir"
+
+Ref: "bulan"."id_bulan" < "about"."tanggal_lahir"

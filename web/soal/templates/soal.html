@@ -1,0 +1,83 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <center><h2>Bank Soal</h2></center>
+    <center><h3>Contoh Soal</h3></center>
+    <h4>Penyajian Data</h4>
+    <p>Selama 1 tahun, toko "Alfi" mencatat keuntungan setiap bulan sebagai berikut.</p>
+	<center><table border="1">
+		<tr>
+			<td>Bulan ke</td>
+			<td>1</td>
+			<td>2</td>
+			<td>3</td>
+			<td>4</td>
+			<td>5</td>
+			<td>6</td>
+			<td>7</td>
+			<td>8</td>
+			<td>9</td>
+			<td>10</td>
+			<td>11</td>
+			<td>12</td>
+		</tr>
+		<tr>
+			<td>Keuntungan</td>
+			<td>2,5</td>
+			<td>1,8</td>
+			<td>2,6</td>
+			<td>4,2</td>
+			<td>3,5</td>
+			<td>3,3</td>
+			<td>4,0</td>
+			<td>5,0</td>
+			<td>2,0</td>
+			<td>4,2</td>
+			<td>6,2</td>
+			<td>6,2</td>
+		</tr>
+	</table></center>
+	<p>Buatlah diagram batang vertikal dari data tersebut.</p>
+	<p>Jawab:</p>
+	<p>Diagram batang vertikal dari data tersebut, tampak pada gambar berikut.</p>
+	<center><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhlH-dk8IjXQm6cVtIuLjPCG_mV-yIMCZfp3WJBcsCCDCGnCxnQqAIWPB2hNmgI-RoFvl5Gz5NLZAIxaxGDgQBITa88xCswwY0iYMCUS7Fv8CY-d5LdpBPKbXuyx3sFReVpiMdbkhGYvMCShBNaZTCTxAmXd-FY7-_HJjRLGm6Kt_ub9yonAoAD9w/s844/diagram%20batang.png" height="350px" width="500px;"></center>
+
+    <h4>Ukuran Pemusatan Data</h4>
+    <p align="justify">Untuk lebih memahami, silahkan simak video berikut.</p>
+	<center><iframe width="560" height="315" src="https://www.youtube.com/embed/LXVg1WnoeGk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+    
+    <h4>Ukuran Letak Data</h4>
+    <p>Tentukan desil ke-1 dan desil ke-5 dari data 47, 33, 41, 37, 46, 43, 39, 36, 35, 42, 40, 39, 45</p>
+	<p>Jawab:</p>
+	<p>Data setelah diurutkan menjadi 33, 35, 36, 37, 39, 39, 40, 41, 42, 43, 45, 46, 47</p>
+	<p>Banyak data adalah n = 13</p>
+	<p>D_1 = data ke- (1 (13+1))/10 = data ke- 1, 4 = x_1 + 0, 4 (x_2- x_1) = 33 + 0, 4 (35 – 33) = 33 + 0, 8 = 33, 8 = data ke- (5 (13+1))/10 = data ke- 7 = x_7 = 40</p>
+	<p>Jadi, desil ke- 1 adalah 33,8 dan desil ke- 5 adalah 40.</p>
+
+    <h4>Ukuran Penyebaran Data</h4>
+    <p>Hitung simpangan rata-rata dari data kuantitatif berikut:</p>
+	<p>12, 3, 11, 3, 4, 7, 5, 11</p>
+	<p>Jawab:</p>
+	<p>x = 1/n (x_1 + … + x_n)</p>
+	<p>x = 1/8 (12 + 3 + 11 + 3 + 4 + 7 + 5 + 11)</p>
+	<p>x = 7</p>
+	<p>S_R = (| 12-7 |+| 3-7 |+| 11-7 |+|3-7 |+| 4-7 |+| 7-7 |+|5-7 |+| 11-7 |)/8</p>
+	<p>S_R = (5+4+4+4+3+0+2+4)/8</p>
+	<p>S_R = 3, 25</p>
+	<p>Jadi, simpangan rata-ratanya adalah 3,25.</p>
+
+    <center><h3>Latihan Soal</h3></center>
+    <h4>Penyajian Data</h4>
+    <p>Diketahui banyak siswa SD adalah 175, banyak siswa SMP adalah 600, dan banyak siswa SMA adalah 225. Buatlah diagram lingkaran untuk data tersebut.</p>
+
+    <h4>Ukuran Pemusatan Data</h4>
+    <p>Tentukan modus dari data 45, 50, 50, 64, 69, 70, 70, 70, 75, 80, 50, 65, 65, 66, 68, 73, 73, 90, 35, 42, 48, 50, 52, 55, 60</p>
+
+    <h4>Ukuran Letak Data</h4>
+    <p>Tentukan desil ke-1 dan desil ke-5 dari data 34, 36, 37, 38, 40, 40, 41, 42, 43, 44, 46, 47, 48</p>
+
+    <h4>Ukuran Penyebaran Data</h4>
+    <p>Dari 50 orang siswa diambil sampel secara acak 15 orang untuk diukur tinggi badannya, diperoleh data sebagai berikut.</p>
+	<p>157 172 165 148 173 166 165 160 155 172 157 162 164 165 170</p>
+	<p>Hitunglah rataan hitung, simpangan baku, dan variansinya.</p>
+{% endblock %}

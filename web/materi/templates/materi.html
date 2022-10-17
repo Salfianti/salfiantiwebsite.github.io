@@ -1,0 +1,137 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <center><h2>Statistika</h2></center>
+    <h2>PENYAJIAN DATA</h2>
+	<h3>Tabel</h3>
+	<p align="justify">Misalkan, data berat badan mahasiswa kelas 2D jurusan Pendidikan matematika disajikan dalam tabel di bawah ini.</p>
+	<center><table border="1">
+		<tr>
+			<td><center>Nilai</center></td>
+			<td><center>Frekuensi</center></td>
+		</tr>
+		<tr>
+			<td>38</td>
+			<td>2</td>
+		</tr>
+		<tr>
+			<td>41</td>
+			<td>1</td>
+		</tr>
+		<tr>
+			<td>Jumlah</td>
+			<td>3</td>
+		</tr>
+	</table></center>
+	<p align="justify">Penyajian data pada tabel di atas dinamakan penyajian data sederhana. Dari tabel tersebut, kita dapat menentukan banyak mahasiswa yang memiliki berat badan 41, yaitu sebanyak 1 orang. Berapa orang mahasiswa yang memiliki berat badan 38? Nilai berapakah yang paling banyak diperoleh siswa?</p>
+
+	<h3>Histogram dan Poligon</h3>
+	<p align="justify">Histogram merupakan diagram frekuensi bertangga yang bentuknya seperti diagram batang (Djumanta & Sudrajat, 2008). Batang yang berdekatan harus berimpit. Untuk pembuatan histogram, pada setiap interval kelas diperlukan tepi-tepi kelas. Tepi-tepi kelas ini digunakan untuk menentukan titik tengah kelas yang dapat ditulis sebagai berikut.</p>
+	<center><table border="1">
+		<tr>
+			<td>Titik tengah kelas = 1/2 (tepi atas kelas + tepi bawah kelas)</td>
+		</tr>
+	</table></center>
+	<p align="justify">Poligon frekuensi dapat dibuat dengan menghubungkan titik-titik tengah setiap puncak persegi panjang dari histogram secara berurutan. Agar poligon "tertutup" maka sebelum kelas paling bawah dan setelah kelas paling atas, masing-masing ditambah satu kelas.</p>
+
+	<h3>Ogive</h3>
+	<p align="justify">Grafik yang menunjukkan frekuensi kumulatif kurang dari atau frekuensi kumulatif lebih dari dinamakan poligon kumulatif.</p>
+	<p align="justify">Untuk populasi yang besar, poligon mempunyai banyak ruas garis patah yang menyerupai kurva sehingga poligon frekuensi kumulatif dibuat mulus, yang hasilnya disebut ogive.</p>
+	<p align="justify">Ada dua macam ogive, yaitu sebagai berikut.
+		<ol>
+		<li>Ogive dari frekuensi kumulatif kurang dari disebut ogive positif.</li>
+		<center><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh__6n0udfI3mvegE8ARK6s7beVMJ6JYHRWoF0AK2VL_UpF2VEYbExbSZ9XlpBWPSJj5Ye_tsnSXdJmsXrjpKIjxG2UAVx76zJcKUx0k93h1Jdu6kXZzYUJf1t6L6zjpc7mfCOp59lFWvjEGHDCSHloBgmldMA8U-J6DbNYEMi1SgMCAEFgZtJYBg/s3000/ogive%20positif.png" height="350px" width="400px;"></center>
+		<li>Ogive dari frekuensi kumulatif lebih dari disebut ogive negatif.</li></p>
+		<center><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjtCdTE2Nobz_70PBRlXqk88AWJKhWKQAlHnu8rFplRzUn10NEVOmHi8vvVBqVZZxT_W2jH4KcsWtc2zP7eIbACBhps3XWj6hb2AKJzyjkScH9OIIXpNeXxLH92OICzHa0B7A-V_HsvnnzBslusCZW7CbGWng-5cuBK9cRTvVYs6Ln56gw1Xzu0Lg/s3000/ogive%20negatif.PNG" height="350px" width="400px;"></center>
+		</ol>
+
+	<h3>Diagram Batang</h3>
+	<p align="justify">Diagram batang biasanya digunakan untuk menggambarkan data diskrit (data cacahan). Diagram batang adalah bentuk penyajian data statistik dalam bentuk batang yang dicatat dalam interval tertentu pada bidang cartesius.</p>
+	<p align="justify">Ada dua jenis diagram batang, yaitu:
+		<ol>
+		<li>diagram batang vertikal, dan</li>
+		<li>diagram batang horizontal.</li></p>
+		</ol>
+
+	<h3>Diagram Garis</h3>
+	<p align="justify">Kita sering melihat grafik nilai tukar dolar terhadap rupiah atau pergerakan saham di TV. Grafik yang seperti itu disebut diagram garis. Diagram garis biasanya digunakan untuk menggambarkan m data tentang keadaan yang berkesinambungan (sekumpulan data kontinu). Misalnya, jumlah penduduk setiap tahun, perkembangan berat badan bayi setiap bulan, dan suhu badan pasien setiap jam.</p>
+	<p align="justify">Seperti halnya diagram batang, diagram garis pun memerlukan sistem sumbu datar (horizontal) dan sumbu tegak (vertikal) yang saling berpotongan tegak lurus. Sumbu mendatar biasanya menyatakan jenis data, misalnya waktu dan berat. Adapun sumbu tegaknya menyatakan frekuensi data.</p>
+	<p align="justify">Langkah-langkah yang dilakukan untuk membuat diagram garis adalah sebagai berikut.
+		<ol>
+		<li>Buatlah suatu koordinat (berbentuk bilangan) dengan sumbu mendatar menunjukkan waktu dan sumbu tegak menunjukkan data pengamatan.</li>
+		<li>Gambarlah titik koordinat yang menunjukkan data pengamatan pada waktu t.</li>
+		<li>Secara berurutan sesuai dengan waktu, hubungkan titik-titik koordinat tersebut dengan garis lurus.</li></p>
+		</ol>
+
+	<h3>Diagram Lingkaran</h3>
+	<p align="justify">Untuk mengetahui perbandingan suatu data terhadap keseluruhan, suatu data lebih tepat disajikan dalam bentuk diagram lingkaran. Diagram lingkaran adalah bentuk penyajian data statistika dalam bentuk lingkaran yang dibagi menjadi beberapa juring lingkaran.</p>
+	<p align="justify">Langkah-langkah untuk membuat diagram lingkaran adalah sebagai berikut.
+		<ol>
+		<li>Buatlah sebuah lingkaran pada kertas.</li>
+		<li>Bagilah lingkaran tersebut menjadi beberapa juring lingkaran untuk menggambarkan kategori yang datanya telah diubah ke dalam derajat.</li></p>
+		</ol>
+	<p align>Berikut ini adalah Applet GeoGebra Diagram Lingkaran.</p>
+	<center><iframe scrolling="no" title="Diagram Lingkaran" src="https://www.geogebra.org/material/iframe/id/naa8bxn7/width/1344/height/964/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/false/rc/false/ld/false/sdz/false/ctl/false" width="1045px" height="964px" style="border:0px;"> </iframe></center>
+
+	<h3>Ringkasan</h3>
+	<p>Histogram merupakan diagram frekuensi bertangga yang bentuknya seperti diagram batang. Untuk populasi yang besar, poligon mempunyai banyak ruas garis patah yang menyerupai kurva sehingga poligon frekuensi kumulatif dibuat mulus, yang hasilnya disebut ogive. Diagram batang adalah bentuk penyajian data statistik dalam bentuk batang yang dicatat dalam interval tertentu pada bidang cartesius. Kita sering melihat grafik nilai tukar dolar terhadap rupiah atau pergerakan saham di TV. Grafik yang seperti itu disebut diagram garis. Diagram lingkaran adalah bentuk penyajian data statistika dalam bentuk lingkaran yang dibagi menjadi beberapa juring lingkaran.</p>
+
+    <h2>UKURAN PEMUSATAN DATA</h2>
+	<h3>Mean (Rata-rata)</h3>
+	<p align="justify">Masih ingatkah kalian cara menghitung mean (rata-rata)? Misalnya, seorang guru mencatat hasil ulangan 10 orang siswanya, sebagai berikut.</p>
+	<p align="justify">6 5 5 7 7,5 8 6,5 5,5 6 9</p>
+	<p align="justify">Dari data tersebut, ia dapat menentukan nilai rataan hitung, yaitu</p>
+	<p align="justify">(6+5+5+7+7,5+8+6,5+5,5+6+9)/10 = 6, 55</p>
+	<p align="justify">Jadi, nilai rataan hitungnya adalah 6, 55.</p>
+	
+	<h3>Modus</h3>
+	<p align="justify">Data yang paling sering muncul disebut modus. Modus dari data itu adalah 7 sebab nilai yang paling sering muncul adalah 7. Modus mungkin tidak ada atau jika ada modus tidak tunggal.</p>
+	
+	<h3>Median (Nilai Tengah) dan Kuartil</h3>
+	<p align="justify">Dari data kuantitatif yang tidak dikelompokkan dan dinyatakan oleh x_1, x_2, …, x_n, (dengan x_1 < x_2 < … < x_n) untuk n yang berukuran besar (yang dimaksud n berukuran besar yaitu n ≥ 30) maka nilai ketiga kuartil, yaitu Q_1  (kuartil bawah), Q_2 (median), dan Q_3 (kuartil atas) ditentukan dengan rumus berikut.
+		<li>Q_1 = x_(1/4(n+1))</li>
+		<li>Q_2 = x_(1/2(n+1))</li>
+		<li>Q_3 = x_(3/4(n+1))</li></p>
+
+	<h3>Ringkasan</h3>
+	<p>Mean adalah rata-rata. Data yang paling sering muncul disebut modus. Median adalah nilai tengah setelah data diurutkan.</p>
+
+    <h2>UKURAN LETAK DATA</h2>
+	<h3>Desil</h3>
+	<p align="justify">Untuk data sebanyak n dengan n ≥ 10, kita dapat membagi data tersebut menjadi 10 kelompok yang memuat data sama banyak. Ukuran statistik yang membagi data (setelah diurutkan dari terkecil) menjadi 10 kelompok sama banyak disebut desil. Sebelum data dibagi oleh desil, data harus diurutkan dari yang terkecil.</p>
+
+	<h3>Persentil</h3>
+	<p align="justify">Persentil (P) adalah nilai-nilai yang membagi serangkaian data atau suatu distribusi frekuensi menjadi 100 bagian yang sama. Dengan demikian terdapat 99 persentil yaitu P_1, P_2, P_3, . . . dan P_99</p>
+	<p align="justify">Persentil Pertama (P_1) adalah sebuah nilai yang membagi serangkaian data atau suatu distribusi  frekuensi sehingga satu persen (1%) dari keseluruhan data nilainya kurang dari nilai (P_1,) dan sembilan puluh sembilan persen (99%) nya lagi memiliki nilai lebih dari nilai (P_1,).</p>
+	<p align="justify">Persentil Kedua (P_2) adalah sebuah nilai yang membagi serangkaian  data atau suatu distribusi frekuensi sehingga dua persen (2%) dari seluruh  data nilainya kurang dari nilai (P_2) dan sembilan puluh delapan persen (98%) nya lagi memiliki nilai lebih besar dari nilai (P_2).</p>
+	<p align="justify">Persentil Kelima Puluh (P_50) adalah  sebuah  nilai  yang membagi  serang- kaian data atau suatu distribusi frekuensi sehingga lima puluh persen (50%) dari seluruh data nilainya kurang dari nilai (P_50) dan  lima puluh persennya lagi (50%) nya lagi memiliki nilai lebih besar dari nilai (P_50). Dengan demikian, Median  = D_5 = P_50</p>
+	<p align="justify">Secara umum dapat ditetapkan batasan sebagai berikut :</p>
+	<p align="justify">Persentil ke-x (P_x) dengan  x = 1, 2, 3  ..., dan 99 adalah sebuah nilai yang membagi serangkaian data atau suatu distribusi frekuensi sehingga x% dari seluruh data nilainya kurang dari nilai (P_x), dan (100% - x%) dari seluruh data tersebut memiliki nilai lebih besar dari nilai (P_x).</p>
+
+	<h3>Ringkasan</h3>
+	<p>Ukuran statistik yang membagi data (setelah diurutkan dari terkecil) menjadi 10 kelompok sama banyak disebut desil. Persentil (P) adalah nilai-nilai yang membagi serangkaian data atau suatu distribusi frekuensi menjadi 100 bagian yang sama.</p>
+
+    <h3>UKURAN PENYEBARAN DATA</h3>
+	<h2>Simpangan Baku</h2>
+	<p align="justify">Diketahui sekumpulan data kuantitatif yang tidak dikelompokkan dan dinyatakan oleh x_1, x_2, …, x_n. Dari data tersebut, dapat diperoleh nilai simpangan baku (S) yang ditentukan oleh rumus berikut.</p>
+	<p align="justify">S = √((∑_(i = 1)^n▒〖(x_(i )- x)²〗)/(n - 1))</p>
+
+	<h2>Simpangan Rata-rata</h2>
+	<p align="justify">Sekumpulan data kuantitatif yang tidak dikelompokkan dinyatakan oleh x_1, x_2, …, x_n. Dari data tersebut dapat ditentukan simpangan rata-rata (S_R) dengan menggunakan rumus:</p>
+	<p align="justify">S_R = 1/n ∑_(i=1)^n▒〖| 〗 x_(i )– x |</p>
+
+	<h2>Ragam (Variansi)</h2>
+	<p align="justify">Untuk data yang tidak dikelompokkan ataupun data yang dikelompokkan, diperoleh nilai variansi (v) dengan menggunakan rumus:</p>
+	<p align="justify">v = S²</p>
+
+	<h2>Jangkauan Data</h2>
+	<p align="justify">Jangkauan data atau disebut juga rentang data adalah selisih antara datum terbesar dan datum terkecil. Jika jangkauan data dinotasikan J, datum terbesar X_n, dan datum terkecil X_1 maka</p>
+	<p align="justify">J = X_n- X_1</p>
+
+	<h2>Simpangan Kuartil</h2>
+	<p align="justify">Selain jangkauan dan jangkauan antarkuartil, dikenal pula simpangan kuartil atau rentang semi-interkuartil. Simpangan kuartil (SK) adalah setengah dari jangkauan antarkuartil (JK).</p>
+	<p align="justify">SK=  1/2 JK = 1/2 (Q_3- Q_1)</p>
+
+	<h3>Ringkasan</h3>
+	<p>Simpangan baku adalah ukuran seberapa tersebarnya angka-angka dalam suatu kumpulan data. Simpangan rata-rata adalah rata-rata jarak antara nilai-nilai data menuju rata-ratanya. Ragam adalah ukuran seberapa jauh sebuah kumpulan bilangan tersebar. Jangkauan data atau disebut juga rentang data adalah selisih antara datum terbesar dan datum terkecil. Simpangan kuartil adalah setengah dari jangkauan antarkuartil.</p>
+{% endblock %}
